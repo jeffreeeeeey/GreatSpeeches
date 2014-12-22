@@ -28,7 +28,7 @@
 	 			</tr>
 	 			<tr>
 	 				<td>Date</td>
-	 				<td><input type="text" name="title"></td>
+	 				<td><input type="text" name="date"></td>
 	 			</tr>
 	 			<tr>
 	 				<td>content</td>
