@@ -20,17 +20,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-data source:${ serverDataSource['class'].name }
+data source:${ serverDataSource['class'].name }</br>
 <%
 	String action = request.getParameter("action");
 	if("add".equals(action)){
 		String title = request.getParameter("title");
 		String author = request.getParameter("author");
-		Date date = request.getParameter("date");
+		//Date date = request.getParameter("date");
 		String content = request.getParameter("content");
 	}
 %>
-
+action:${ param.action }
 
 </body>
 </html>
